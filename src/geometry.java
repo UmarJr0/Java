@@ -7,11 +7,15 @@ public class geometry extends Maths {
     }
 
     public float areaOfSquare(float length) {
-        return powTwo(length);
+        return length * length;
     }
 
     public float areaOfTriangle(float length, float breadth) {
         return length * breadth;
+    }
+
+   public void Geometry(){
+        System.out.println("Constructor Called");
     }
 
 }
